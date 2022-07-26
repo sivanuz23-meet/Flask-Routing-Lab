@@ -2,9 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Product</title>
+    <title>Products</title>
+    <style type="text/css">
+            body{
+              background-color: lightblue;
+            }
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+              max-width: 300px;
+              margin: auto;
+              text-align: center;
+              font-family: arial;
+            }
+
+            .price {
+              color: grey;
+              font-size: 22px;
+            }
+
+            .card button {
+              border: none;
+              outline: 0;
+              padding: 12px;
+              color: white;
+              background-color: #000;
+              text-align: center;
+              cursor: pointer;
+              width: 100%;
+              font-size: 18px;
+            }
+
+            .card button:hover {
+              opacity: 0.7;
+            }
+
+
+    </style>
 </head>
 <body>
+     <div class="card">
+        <img src="static/index.jpeg" width="300" height="300">
+        <h1> Luxury Shoes</h1>
+        <p class="price">$230</p>
+        <p>Very good shoes</p>
+        <p><a href="cart.html"><button>Add to Cart</button></p></a>
+    </div> 
+    <div class="card">
+        <img src="static/images.jpeg" width="300" height="300">
+        <h1> Designer Shoes</h1>
+        <p class="price">$500</p>
+        <p>Very good shoes</p>
+        <p><a href="cart.html"><button>Add to Cart</button></p></a>
+    </div> 
+    <div class="card">
+        <img src="static/shoes.jpeg" width="300" height="300">
+        <h1> Comfortable Shoes</h1>
+        <p class="price">$230</p>
+        <p>Very good shoes</p>
+        <p><a href="cart.html"><button>Add to Cart</button></p></a>
+    </div> 
 
 </body>
 </html>

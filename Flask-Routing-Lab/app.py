@@ -11,8 +11,15 @@ app = Flask(  # Create a flask app
 @app.route('/')
 def home():
     return render_template("home.html")
-
-
+@app.route('/product.html')
+def product():
+    return render_template("product.html")
+@app.route('/home.html')
+def home_link():
+    return render_template("home.html")
+@app.route('/cart.html')
+def home_link():
+    return render_template("cart.html")
 
 # Your code should be above
 

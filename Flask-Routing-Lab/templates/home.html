@@ -7,6 +7,21 @@
         .center{
             text-align: center;
         }
+        .topnav a {
+          float: left;
+          display: block;
+          color: black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: #e9e9e9;
+        }
+
+
     </style>
       <link rel="stylesheet"     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -14,24 +29,32 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="center">
-        <h1>Ebay</h1>
-        <b></b><b></b>
-         <div class="topnav">
+    <div class="center">  
+        <div class="topnav">
+            <a class = "active" href="home.html">Home</a>
+            <a href="product.html">Products</a>
             <input type="text" placeholder="Search..">
         </div> 
+        <img src="static/index.png" width="200" height="100">
+        <b></b><b></b>
+       
         <b></b>
-        <h2>Welcome to ebay! Here are some things you can buy:</h2>
+        <h5>Welcome to ebay! Here are some things you can buy:</h5>
         <b></b>
         <div class = "container">
             <div class = "row">
                 <div class = "col-4">
-                    <img src="static/images.jpeg" width="400" height="300">
+                    <a href="product.html"><img src="static/images.jpeg" width="400" height="300"></a>
+                    <a href="cart.html"><button>add to cart</button></a>
                 </div>
                 <div class = "col-8">
-                    <img src="static/index.jpeg" width="400" height="300">
+                    <a href="product.html"><img src="static/index.jpeg" width="400" height="300"></a>
+                    <a href="cart.html"><button>add to cart</button></a>
                 </div>
             </div>
+            <div class = "row">
+                <a href="product.html"><img src="static/shoes.jpeg" width="1000" height="400"></a>
+                <a href="cart.html"><button>add to cart</button></a>
         </div>
 
     </div>
