@@ -35,11 +35,41 @@
             .card button:hover {
               opacity: 0.7;
             }
+          .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            }
+          .topnav {
+            overflow: hidden;
+            background-color: #e9e9e9;
+          }
+          .center{
+            text-align: center;
+          }
+          .topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
 
 
     </style>
 </head>
 <body>
+  <div class = "center">
+        <div class="topnav">
+            <a class = "active" href="home.html">Home</a>
+            <a href="product.html">Products</a>
+            <input type="text" placeholder="Search..">
+        </div> 
      <div class="card">
         <img src="static/index.jpeg" width="300" height="300">
         <h1> Luxury Shoes</h1>
@@ -61,6 +91,6 @@
         <p>Very good shoes</p>
         <p><a href="cart.html"><button>Add to Cart</button></p></a>
     </div> 
-
+  </div>
 </body>
 </html>

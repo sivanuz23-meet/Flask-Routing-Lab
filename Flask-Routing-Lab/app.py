@@ -18,7 +18,7 @@ def product():
 def home_link():
     return render_template("home.html")
 @app.route('/cart.html')
-def home_link():
+def cart_link():
     return render_template("cart.html")
 
 # Your code should be above
